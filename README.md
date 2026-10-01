@@ -66,6 +66,20 @@ This will start a local server at http://localhost:8787.
 
 Note: Using Workers AI accesses your Cloudflare account even during local development, which will incur usage charges.
 
+### Testing
+
+Run the test suite:
+
+```bash
+npm test
+```
+
+Run the tests with code coverage (generates a Cobertura report in `coverage/`):
+
+```bash
+npm run test:coverage
+```
+
 ### Deployment
 
 Deploy to Cloudflare Workers:

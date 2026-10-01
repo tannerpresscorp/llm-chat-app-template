@@ -20,6 +20,7 @@
 		"@cloudflare/vitest-pool-workers": "0.21.3",
 		"@cloudflare/workers-types": "^4.20260702.1",
 		"@types/node": "24.10.1",
+		"@vitest/coverage-istanbul": "4.1.10",
 		"@vitest/runner": "4.1.10",
 		"@vitest/snapshot": "4.1.10",
 		"typescript": "5.9.3",
@@ -34,6 +35,7 @@
 		"dev": "wrangler dev",
 		"e2e:dev": "wrangler dev --config wrangler.e2e.jsonc",
 		"start": "wrangler dev",
-		"test": "vitest"
+		"test": "vitest",
+		"test:coverage": "vitest run --coverage"
 	}
 }
